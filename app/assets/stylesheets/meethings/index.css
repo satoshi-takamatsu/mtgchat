@@ -1,19 +1,17 @@
 .main {
-  background-color: snow;
   height: calc(100vh - 130px);
-}
-
-/* .meeting-image {
-  height: 100%;
-  width: 100%;
-} */
-
-.main {
   width: 100vw;
   background-image: url(/assets/meeting.png);
   background-size: cover;
+  opacity: 0.8;
   /* background-repeat: no-repeat; */
   /* background-position: top center; */
+  display: flex;
+}
+
+.main-message {
+  background-color: turquoise;
   color: white;
   text-shadow: 0 0 5px rgb(0 0 0 / 90%);
+  display: flex;
 }
